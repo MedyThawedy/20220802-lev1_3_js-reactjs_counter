@@ -1,0 +1,42 @@
+.clsDivParent {
+    width: 550px;
+    margin-top: 5vh;
+    border: 1px solid lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clsDivTop {
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    height: 60px;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.clsDivTop button {
+    font-size: 3rem;
+}
+
+input {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.clsDivBottom {
+    display: grid;
+    grid-template-columns: 20%;
+    height: 50px;
+    gap: 10px;
+    margin-top: 2vh;
+    justify-content: center;
+    grid-template-columns: 531px;
+}
+
+.clsDivBottom button {
+    margin-bottom: 10px;
+    font-size: 2rem;
+
+}
